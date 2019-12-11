@@ -21,7 +21,7 @@ img {
 
 nav {
   position: absolute;
-  bottom:86.3%;
+  bottom: 90.3%;
   left: 11%;
   z-index: 1;
   background-color: white;
@@ -183,13 +183,18 @@ header {
 }
 
 h1 {
- grid-column: 2;
+ grid-column: 1/-1;
  display: flex;
  width: 100%;
- justify-content: left;
+ height: 100px;
+ justify-content: center;
  margin-top: .5em;
  font-family: 'Righteous', cursive;
  font-size: 500%;
+ background-color: white;
+ opacity: 0.9;
+
+ z-index: 1;
 }
 
 footer {
