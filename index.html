@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form Assignment</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="font.css">
+</head>
+
+<body>
+  <div class="grid">
+    <img src="seed.svg" alt="feather logo">
+    <nav>
+      <ul>
+        <li><a href="index.html"><strong>Home</strong></a></li>
+        <li><a href="#"><strong>About</strong></a></li>
+        <li><a href="#"><strong>Info</strong></a></li>
+        <li><a href="#"><strong>Contact</strong></a></li>
+      </ul>
+    </nav>
+    <aside id="grid">
+      <form action="#" method="post" enctype='multipart/form-data' autocomplete="on">
+        <span>
+          <label><strong>Username:</strong>
+          <input type="text" placeholder="Username" name="username" required="required"></label>
+        </span>
+        <span>
+          <label><strong>Password:</strong>
+          <input type="password" placeholder="Password" name="password" required="required" minlength="8" maxlength="16"></label>
+        </span>
+        <div>
+          <input id="checked" type="checkbox" checked="checked" name="remember"> <label id="remember">Remember Me</label>
+          <button type="submit" class="button">Login</button>
+        </div>
+      </form>
+    </aside>
+    <div id="grid2">
+     <h3>Join the Cactus Club Today</h3><br>
+     <h4>Sign up to recieve a new cactus every month<br>for only <strong>$5</strong> a month!</h4><br>
+      <a id="signup" href="index2.html"><strong>Sign Up</strong></a>
+    </div>
+    <header>
+      <h1>Cactus Club</h1>
+    </header>
+    <footer>
+     <p>Made by Mallory &copy; 2019</p>
+    </footer>
+  </div>
+</body>
+</html>

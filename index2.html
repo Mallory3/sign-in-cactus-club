@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles2.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="font.css">
+</head>
+
+<body>
+ <header>
+    <img src="seed.svg" alt="feather logo">
+    <h1>Cactus Club</h1>
+ </header>
+ <nav>
+    <ul>
+      <li><a href="index.html"><strong>Home</strong></a></li>
+      <li><a href="#"><strong>About</strong></a></li>
+      <li><a href="#"><strong>Info</strong></a></li>
+      <li><a href="#"><strong>Contact</strong></a></li>
+    </ul>
+  </nav>
+  <h2>Register Now</h2>
+  <form action="#" method="post" enctype='multipart/form-data' autocomplete="on">
+    <fieldset>
+      <legend>Complete all fields marked with a <span>*</span></legend>
+      <label>Username:<span>*</span><br>
+      <input id="name" type="text" name="username" placeholder="John Shepp"></label><br>
+      <label><strong>Password<span>*</span></strong><br>
+      <input type="password" placeholder="Enter Password" name="password" required minlength="8" maxlength="16"></label><br>
+      <label><strong>Confirm Password<span>*</span></strong><br>
+      <input type="password" placeholder="Enter Password" name="psw" required></label><br>
+      <label>Email<span>*</span><br>
+      <input type="email" name="email" placeholder="johnshepp@email.com" required></label><br>
+      <label>Phone Number<br>
+      <input type="tel" id="phone" name="phone"
+      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="403-818-4164"></label><br>
+      <label for="file">Upload Photo<span>*</span><br>
+      <input id="file" type="file" name="photo"></label><br>
+      <input id="upload" type="submit" value="Upload Photo"> 
+      <input id="submit" type="submit" value="Register">
+    </fieldset>
+  </form>     
+</body>
+</html>
